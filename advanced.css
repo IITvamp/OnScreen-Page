@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.supermain{
+    height: 200vh;
+    position: relative;
+}
+
+.main{
+    
+    height: 100vh;
+    background-image: url(pictures/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo{
+    height: 7vh;
+    cursor: pointer;
+    display: flex;
+}
+
+.navbar{
+    width: 85%;
+    height: 10%;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+button {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+
+.content{
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    
+}
+
+small{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 100px;
+    margin: 10px 0 10px;
+
+}
+
+#button{
+    transform: translateX(-20%);
+}
+
+.sidebar{
+    width: 100vw;
+    height: 10%;
+    position: absolute;
+    background-color: #1e365a;
+    bottom: 0%;
+    left: 0;
+    opacity: 0.3;
+}
+
+.sidebar:hover{
+    opacity: 0.6;
+}
+
+button:focus {
+    outline: none;
+    color: green;
+    background-color: red;
+  }
+
+ /* lets make login form */ 
+
+ .form{
+    height: 400px;
+    width: 400px;
+    line-height: 20px;
+    background-color: rgb(167, 145, 145);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: center; */
+    transform: translate(200%, 12%);
+    border: none;
+    
+ }
+
+ input:focus{
+     outline: none;
+     color: red;
+ }
+
+ .box{
+     margin: 10px 5px 10px 30px;
+     font-size: 150%;
+     padding: 5px 5px 5px 0px;
+ }
+ input{
+     border-radius: 10px;
+     margin-left: 5px;
+ }
